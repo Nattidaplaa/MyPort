@@ -1,0 +1,24 @@
+.contact {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(204, 218, 218);  
+} 
+
+.con1 {
+    display: flex;
+    width: 100%;
+    text-align: start;
+    justify-content: space-around;
+    
+} 
+
+.con2 {  
+    padding: 20px;
+}
+
+.text {
+    max-width: 75%;
+    
+}

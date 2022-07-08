@@ -1,4 +1,3 @@
-import { Children } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import pic from "./pic/icon-1.png"
  
@@ -12,6 +11,7 @@ const Navbar = () => {
         <CustomLink to="/profile">Profile</CustomLink>
         <CustomLink to="/education">Education</CustomLink>
         <CustomLink to="/experience">Experience</CustomLink>
+        <CustomLink to="/skills">Skills</CustomLink>
         <CustomLink to="/contact">Contact</CustomLink>
       </ul>
     </nav>

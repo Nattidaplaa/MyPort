@@ -1,0 +1,31 @@
+.all {
+    text-align: center; 
+}
+
+.skill {
+   
+    font-size: 25px;
+    font-family: Copperplate, Papyrus, fantasy;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.iconskill {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+ 
+.Software {
+    font-size: 30px;
+    padding: 2px;
+    font-family: Garamond, serif;
+    font-weight: bolder;
+
+}
+
+.soft {
+    font-size: 20px;
+    padding: 2px;
+    font-family: Garamond, serif;
+
+}

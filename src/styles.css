@@ -1,15 +1,25 @@
+@import "./css/Contact.css";
+@import "./css/Home.css";
+@import "./css/Profile.css";
+@import "./css/Education.css";
+@import "./css/Experience.css" ;
+@import "./css/Skill.css";
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background-color: rgb(225, 221, 221);
+    background-image: url("./pic/bghome.jpg");
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
     margin: 1rem;
-    text-align: center;
 }
 
 .nav {
@@ -49,9 +59,6 @@ body {
 .nav li.active {
     background-color: #555;
 }
-.nav li.actives {
-    background-color: #555;
-}
 
 .nav li:hover {
     background-color: #777;
@@ -63,3 +70,4 @@ body {
     width: 70px;
     height: 70px;
 }
+
