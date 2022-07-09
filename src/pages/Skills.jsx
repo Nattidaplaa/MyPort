@@ -14,13 +14,12 @@ import weka from "../pic/weka.png";
 
 const Skills = () => {
   return (
-    <div className="all">
-      <div className="skill">
-        <h1>
+      <div className="all">
+        <div className="name">
           <FontAwesomeIcon icon={faListCheck} /> {""}
           Skills
-        </h1>
-      </div>
+        </div>
+
       <div>
         <FontAwesomeIcon icon={faReact} className="iconskill" />
         <FontAwesomeIcon icon={faCss3Alt} className="iconskill" />
@@ -40,7 +39,7 @@ const Skills = () => {
         <h3 className="Software">Software</h3>
         <li className="soft">Weka  </li>
         <li className="soft">Photoshop </li>
-        <li className="soft">officeMicrosoft</li>
+        <li className="soft">Microsoft office</li>
       </div>
     </div>
   );

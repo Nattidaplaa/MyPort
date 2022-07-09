@@ -5,21 +5,19 @@
     border: none;
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
     cursor: pointer;
     background:#eee;
     width: 60%;
     overflow-y: auto;
-    box-shadow: 0 0 0 8px rgba(96, 92, 92, 0.2);
+    box-shadow: 10px 10px 50px rgba(119, 119, 119, 0.5);
   }
 
 .logoprofile {
     width: 25%;	
-    border-radius: 8px;
     box-shadow: 0 0 0 4px rgba(159, 105, 105, 0.2);
     border: none;
     position: relative;
-    margin-top: 10px;
+    margin-top: 20px;
     
 }
 

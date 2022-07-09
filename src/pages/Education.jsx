@@ -4,10 +4,8 @@ import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 const Education = () => {
   return (
     <div>
-      <div>
-        <h1 className="myeducation">
+      <div className="name">
           <FontAwesomeIcon icon={faGraduationCap} /> My Education
-        </h1>
       </div>
 
       <div className="contai">

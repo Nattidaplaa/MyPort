@@ -1,22 +1,17 @@
 import profile from "../pic/profile.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faAngleLeft,
-  faAngleRight,
-  faUserCircle,
-} from "@fortawesome/free-solid-svg-icons";
+import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
 
 const Profile = () => {
   return (
     <div>
-      <h1 className="name"> <FontAwesomeIcon icon={faUserCircle} /> Profile</h1>
+      <div className="name">
+        {" "}
+        <FontAwesomeIcon icon={faUserCircle} /> Profile
+      </div>
       <div className="card">
         <img className="logoprofile" src={profile} alt="NATTIDA"></img>
-        <h2 className="nattida">
-          {" "}
-          <FontAwesomeIcon icon={faAngleLeft} /> Nattida Chairat{" "}
-          <FontAwesomeIcon icon={faAngleRight} />
-        </h2>
+        <h2 className="nattida"> ... Nattida Chairat ...</h2>
         <div className="message">
           <p>
             I graduated with a bachelor's degree of Computer Engineering, Prince
