@@ -4,6 +4,7 @@
 @import "./css/Education.css";
 @import "./css/Experience.css" ;
 @import "./css/Skill.css";
+@import "./slid/Slid.css";
 
 * {
     box-sizing: border-box;

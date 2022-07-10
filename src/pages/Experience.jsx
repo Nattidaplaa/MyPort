@@ -1,14 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
-/* import p4 from "../pic/Project/4.png";
-import p5 from "../pic/Project/5.png";
-import p8 from "../pic/Project/8.png";
- */
+import Slid from "../slid/Slid";
+import SildMini from "../slid/SlidMini";
+
 const Experience = () => {
   return (
     <div className="experience">
       <div className="name">
-          <FontAwesomeIcon icon={faGear} /> Experience
+        <FontAwesomeIcon icon={faGear} /> Experience
       </div>
 
       <div className="boxx">
@@ -28,39 +27,60 @@ const Experience = () => {
             electric control devices.
           </p>
         </div>
-        
+
         <div>
           <a className="button" href="#popup1">
-            See more
+            See picture...
           </a>
         </div>
         <div id="popup1" className="overlay">
-          <div className="popup"> <h2>picture</h2>
-          <a className="close" href="#close" >
-            &times;
-          </a>
-          <div className="contenttt">picture1</div>
-        </div>
+          <div className="popup">
+            {" "}
+            <h2>picture</h2>
+            <a className="close" href="#close">
+              &times;
+            </a>
+            <p>
+              <Slid />
+            </p>
+            <li className="soft">Software : C++ , Arduino IDE</li>
+            <li className="soft">Hardware : ESP 32, Arduino, APDS-9960</li>
+          </div>
         </div>
       </div>
 
       <div className="boxx">
-        <p className="project1">Mini Project with Blackpink story </p>
+        <div>
+          <p className="project1">Mini Project with Blackpink story </p>
+        </div>
+        <div>
+          <p className="content-pro1">
+            This mini Project with Blackpink story. Content about members of
+            Blackpink.Personal profile of each member and music vedio of
+            Blackpink.
+          </p>
+        </div>
 
         <div>
-          <a className="button" href="#popup1">
-            See more
+          <a className="button" href="#popup2">
+            See picture...
           </a>
         </div>
-        <div id="popup1" className="overlay">
-          <div className="popup"> <h2>picture</h2>
-          <a className="close" href="#close" >
-            &times;
-          </a>
-          <div className="contenttt">picture1</div>
+        <div id="popup2" className="overlay">
+          <div className="popup">
+            {" "}
+            <h2>picture</h2>
+            <a className="close" href="#close">
+              &times;
+            </a>
+            <p>
+              <SildMini />
+            </p>
+            <li className="softt">Language : Javascript, HTML</li>
+            <li className="softt">frameworks : React</li>
+            <li className="softt">Database : Firebase</li>
+          </div>
         </div>
-        </div>
-
       </div>
     </div>
   );
