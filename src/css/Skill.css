@@ -11,15 +11,16 @@
  
 .Software {
     font-size: 30px;
-    padding: 2px;
     font-family: Garamond, serif;
     font-weight: bolder;
-
 }
 
 .soft {
     font-size: 20px;
-    padding: 2px;
     font-family: Garamond, serif;
 
+
+}
+.soft1 {
+    margin-bottom: 20px
 }

@@ -5,31 +5,42 @@
 @import "./css/Experience.css" ;
 @import "./css/Skill.css";
 @import "./slid/Slid.css";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Ubuntu:wght@700&display=swap');
+
 
 * {
     box-sizing: border-box;
+    
 }
 
 body {
     margin: 0;
-    background-image: url("./pic/bghome.jpg");
     height: 100vh; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+
+    
 }
 
-.container{
+/* .container{
     margin: 1rem;
-}
+    
+} */
 
 .nav {
+    position: sticky;
     background-color: #333;
     color: white;
+    text-align: center;
+    width: 100%;
+    top: 0px;
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
-    padding: 0 1rem;
+    padding: 10px;
+    z-index: 10;
+
 }
 
 .site-title {
@@ -45,6 +56,7 @@ body {
     gap: 1rem;
     align-self: center;
     
+    
 }
 
 .nav a {
@@ -54,21 +66,30 @@ body {
     display: flex;
     align-items: center;
     padding: .25rem;
+    
    
 } 
 
 .nav li.active {
     background-color: #555;
+    
 }
 
 .nav li:hover {
     background-color: #777;
     border-radius: 3px;
     padding: 1px;
+
 }
 
 .logo {
     width: 70px;
     height: 70px;
+    margin-left: 20px;
+    cursor: pointer;
 }
 
+.right {
+    margin-right: 20px;
+    cursor: pointer;
+}

@@ -14,16 +14,20 @@
 
 .logoprofile {
     width: 25%;	
-    box-shadow: 0 0 0 4px rgba(159, 105, 105, 0.2);
     border: none;
     position: relative;
     margin-top: 20px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+
     
 }
 
 .message{
     font-size: 20px;
-    background-color: lightsteelblue;
+    background-color: #AED6F1 ;
     padding: 2px;
     font-family: Garamond, serif;
 }
@@ -38,10 +42,11 @@
 
 .name{
     text-align: center; 
-    font-size: 45px;
-    font-family: Copperplate, Papyrus, fantasy;
-    margin-top: 13px;
-    margin-bottom: 13px;
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: bolder;
 }
 
 

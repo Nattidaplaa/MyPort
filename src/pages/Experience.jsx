@@ -5,7 +5,9 @@ import SildMini from "../slid/SlidMini";
 
 const Experience = () => {
   return (
-    <div className="experience">
+    <>
+    <div id="experience" className="top"></div>
+    <div className="experience" >
       <div className="name">
         <FontAwesomeIcon icon={faGear} /> Experience
       </div>
@@ -19,20 +21,18 @@ const Experience = () => {
         <div>
           <p className="content-pro1">
             This project is Smart home lighting design by technology of sensors
-            Gesture-Recognition.Developed in conjunction with basic control
-            systems, smart home automation systems.Uses the esp32 series of
-            microcontrollers in conjunction with the RGB and Gesture Sensors
-            (APDS-9960).Develop touse the electric control devices with virtue
+            Gesture-Recognition.Develop touse the electric control devices with virtue
             of turning on-off and prohibiting lights or control devices,
             electric control devices.
+            <a className="button" href="#popup1">
+            See picture...
+          </a>
           </p>
         </div>
 
-        <div>
-          <a className="button" href="#popup1">
-            See picture...
-          </a>
-        </div>
+        
+          
+        
         <div id="popup1" className="overlay">
           <div className="popup">
             {" "}
@@ -83,6 +83,7 @@ const Experience = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

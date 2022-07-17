@@ -10,12 +10,13 @@ import {
   faGears,
   faListCheck,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="con1">
-        <div className="con2">
+        <div>
           <div className="text">
             <h3>Plaa's</h3>
             <p>
@@ -26,34 +27,42 @@ const Contact = () => {
 
         <div className="con2">
           <h3>Contact Information</h3>
-          <p>
+          <li>
             <FontAwesomeIcon icon={faPhone} /> 061-2568358
-          </p>
-          <p>
+          </li>
+          <li>
             <FontAwesomeIcon icon={faEnvelopeSquare} /> plaa177@gmail.com
-          </p>
-          <p>
+          </li>
+          <li>
             <FontAwesomeIcon icon={faLocationDot} /> Phuket Thailand
-          </p>
-          <p>
+          </li>
+          <li>
             <FontAwesomeIcon icon={faLine} /> ID : plaa..
-          </p>
+          </li>
         </div>
 
-        <div className="con2">
+        <div className="con3">
           <h3>Overview</h3>
-          <p>
-            <FontAwesomeIcon icon={faUserCircle} /> Profile
-          </p>
-          <p>
-            <FontAwesomeIcon icon={faGraduationCap} /> Education
-          </p>
-          <p>
-            <FontAwesomeIcon icon={faGears} /> Experience
-          </p>
-          <p>
-            <FontAwesomeIcon icon={faListCheck} /> Skills
-          </p>
+          <li>
+            <Link activeClass="active" smooth spy to="profile">
+              <FontAwesomeIcon icon={faUserCircle} /> Profile
+            </Link>
+          </li>
+          <li>
+            <Link activeClass="active" smooth spy to="education">
+              <FontAwesomeIcon icon={faGraduationCap} /> Education
+            </Link>
+          </li>
+          <li>
+            <Link activeClass="active" smooth spy to="experience">
+              <FontAwesomeIcon icon={faGears} /> Experience
+            </Link>
+          </li>
+          <li>
+            <Link activeClass="active" smooth spy to="skills">
+              <FontAwesomeIcon icon={faListCheck} /> Skills
+            </Link>
+          </li>
         </div>
       </div>
     </div>
